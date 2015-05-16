@@ -18,8 +18,12 @@ function Foo.foo()
 					log:trace("Write access could not be obtained.")
 				end
 				
+				-- EDIT TO FIT YOUR NEEDS HERE (START)
+				
 				local colset = cat:createCollectionSet("!!! Neues Collection Set", nil, false)
 				local col = cat:createCollection("Alle Fotos", colset, false)
+				
+				-- EDIT TO FIT YOUR NEEDS HERE (END)
 			end)
 		end)
 	end)
